@@ -64,3 +64,88 @@ nav ul li:hover > ul {
   border: 10px;
   text-decoration: underline;
 }
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: helvetica; 
+}
+      
+body{
+   background-color: crimson;
+}
+      
+.main{
+   width: 500px;
+   margin: 50px auto;
+   border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 2px 2px 10px #000;
+   background-color: gainsboro;
+}
+     
+.info{
+   width=100%;
+   padding: 10px;
+   background-color:whitesmoke;
+   font-size: 30px;
+   font-family: Georgia, serif;
+   font-weight:bold;
+   text-align: center;
+   border: 5px solid black;
+}
+      
+.form-box{
+   padding:10px;
+}
+      
+label{
+   font-size:20px;
+}
+
+.inp, #msg-box{
+   width:100%;
+   padding:10px;
+   margin-top: 3px;
+   margin-bottom: 20px;
+   border: 2px solid gray;
+   font-weight: bold;
+   border-radius: 5px;
+   border-right: 20px solid crimson;
+   border-left: 20px solid crimson;
+}
+      
+#msg-box{
+   resize: none;
+   height: 100px;
+}
+      
+.inp:focus, #msg-box:focus{
+   outline: none;
+   border: 2px solid navy;
+   border-right: 20px solid navy;
+   border-left: 20px solid navy;
+}
+      
+.sub-btn{
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: none;
+   border-radius:5px;
+   background: linear-gradient(#800000, crimson);
+   color: #fff;
+   font-size:20px;
+   cursor: pointer;
+}
+      
+.sub-btn:focus{
+   outline: none;
+}
+      
+.sub-btn:hover{
+   background: linear-gradient(crimson, #800000);
+   transition: all ease-out 0.5s;
+}
+
