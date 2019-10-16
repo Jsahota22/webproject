@@ -33,6 +33,7 @@ nav ul li {
 nav ul li:hover {
     background-color: crimson;
 }
+
 nav ul li:hover a {
     color: black;
 }
@@ -54,44 +55,44 @@ nav ul ul li {
 nav ul li:hover > ul {
     display: block;
 }
+
 * {
   box-sizing: border-box;
 }
     
-    h1 {
-        text-align: center;
-        font-size: 40px;
-    }
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
     
-    body {
-        color: black;
-        font-family: sans-serif;
-        text-align: left;
-        padding:0px; 
-        margin:0px;
+body {
+  color: black;
+  font-family: sans-serif;
+  text-align: left;
+  padding:0px; 
+  margin:0px;        
+}
         
-    }
-        
-    .container{
-        display: flex;
-        background-color: crimson;
-        padding: 0px;
-    }
+.container {
+  display: flex;
+  background-color: crimson;
+  padding: 0px;
+}
     
-    .left{
-        flex: 1;
-        padding: 1em;
-        margin: 0em;
-        text-align: center;
-    }
+.left {
+  flex: 1;
+  padding: 1em;
+  margin: 0em;
+  text-align: center;
+}
     
-    .middle, .right {
-        flex: 1; 
-        padding-left:0px;
-        align-self:flex-start;
-        font-size: 20px;
-    }
+.middle, .right {
+  flex: 1; 
+  padding-left:0px;
+  align-self:flex-start;
+  font-size: 20px;
+}
     
-    .bottom {
-        align-self:flex-end;
-    }
+.bottom {
+  align-self:flex-end;
+}
