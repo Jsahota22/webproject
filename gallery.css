@@ -37,6 +37,7 @@ nav ul li {
 nav ul li:hover {
     background-color: crimson;
 }
+
 nav ul li:hover a {
     color: black;
 }
@@ -90,5 +91,5 @@ nav ul li:hover > ul {
         0%{background-image: url(../images/c.jpg); }
         35%{background-image: url(../images/a.jpg); }
         75%{background-image: url(../images/b.jpg); }
-    }
+}
 
