@@ -1,0 +1,97 @@
+nav {
+    display: table;
+    background-color: black;
+    border-top: 20px solid, black;
+}
+
+nav ul {
+    display: table-row;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+nav ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    display: table-cell;
+    width: 1%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: crimson;
+}
+nav ul li:hover a {
+    color: black;
+}
+
+nav ul ul{
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    float: right;
+}
+
+nav ul ul li {
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+* {
+  box-sizing: border-box;
+}
+    
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    body {
+        color: black;
+        font-family: sans-serif;
+        text-align: left;
+        padding:0px; 
+        margin:0px;
+        
+    }
+        
+    .container{
+        display: flex;
+        background-color: crimson;
+        padding: 0px;
+    }
+    
+    .left{
+        flex: 1;
+        padding: 1em;
+        margin: 0em;
+        text-align: center;
+    }
+    
+    .middle, .right {
+        flex: 1; 
+        padding-left:0px;
+        align-self:flex-start;
+        font-size: 20px;
+    }
+    
+    .bottom {
+        align-self:flex-end;
+    }

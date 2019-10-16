@@ -1,0 +1,98 @@
+    .header {
+  padding: 80px;
+  text-align: center;
+  background: #DC143C;
+  color: white;
+  height: 300px;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+.header p {
+  font-size:30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+nav {
+    display: table;
+    background-color: black;
+    border-top: 20px solid, black;
+}
+
+nav ul {
+    display: table-row;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+nav ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    display: table-cell;
+    width: 1%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: crimson;
+}
+nav ul li:hover a {
+    color: black;
+}
+
+nav ul ul{
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    float: right;
+}
+
+nav ul ul li {
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 0%; /* Set the width of the sidebar */
+  background-image: url(/images/weights.jpg) no repeat;
+  background-origin: content-box;
+}
+
+.main {
+  flex: 2%; 
+  background-color: lightgray;
+  height: 319px;
+  text-align: center;
+    }

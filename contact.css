@@ -1,0 +1,112 @@
+html{
+  background: url(../images/gym.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+nav {
+    display: table;
+    background-color: black;
+    border-top: 20px solid, black;
+}
+
+nav ul {
+    display: table-row;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+nav ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    display: table-cell;
+    width: 1%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: crimson;
+}
+nav ul li:hover a {
+    color: black;
+}
+
+nav ul ul{
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    float: right;
+}
+
+nav ul ul li {
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 43px;
+  font-family: Georgia, serif;
+  color: crimson;
+  text-align: right;
+  border: 10px;
+  text-decoration: underline;
+}
+
+.enquiry fieldset {
+background-color: #3E3A3A;
+height: 370px;
+width: 180px;
+}
+
+label {
+  display: inline-block;
+  float: right;
+  clear: left;
+  width: 160px;
+  text-align: right;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  height: 20px;
+  padding: 0px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+input {
+  display: inline-block;
+  float: right;
+  width: 150px;
+  height: 20px;
+  padding:10px;
+}
+select {
+  width: 150px;
+  height: 20px;
+  margin: 0px 0px 15px;
+  padding: 10px;
+}
+
+input[type=submit]{
+  margin: 0px;
+  padding:15px 15px;
+  text-align: centre;
+}
