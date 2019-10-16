@@ -33,6 +33,7 @@ nav ul li {
 nav ul li:hover {
     background-color: crimson;
 }
+
 nav ul li:hover a {
     color: black;
 }
@@ -54,6 +55,7 @@ nav ul ul li {
 nav ul li:hover > ul {
     display: block;
 }
+
 .header h1 {
   font-size: 43px;
   font-family: Georgia, serif;
