@@ -2,6 +2,7 @@ html{
   background: url(../images/gym.jpg) no-repeat center fixed;
   background-size: cover;
 }
+
 nav {
     display: table;
     background-color: black;
@@ -37,11 +38,12 @@ nav ul li {
 nav ul li:hover {
     background-color: crimson;
 }
+
 nav ul li:hover a {
     color: black;
 }
 
-nav ul ul{
+nav ul ul {
     display: none;
     background-color: white;
     position: absolute;
@@ -58,6 +60,7 @@ nav ul ul li {
 nav ul li:hover > ul {
     display: block;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -72,9 +75,9 @@ nav ul li:hover > ul {
 }
 
 .enquiry fieldset {
-background-color: #3E3A3A;
-height: 370px;
-width: 180px;
+  background-color: #3E3A3A;
+  height: 370px;
+  width: 180px;
 }
 
 label {
@@ -98,6 +101,7 @@ input {
   height: 20px;
   padding:10px;
 }
+
 select {
   width: 150px;
   height: 20px;
